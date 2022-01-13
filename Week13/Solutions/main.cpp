@@ -52,8 +52,7 @@ int findQuotesCount(char* str) {
 
 int main() {
 	char str[] = "Gauss-Ostrogradsky";
-	int arr[] = { 1, 1, 0, 1, 0, 1, -1, -1, -1, -1, -1, 1, -1, -1,
--1 , 0, 1, 1 };
+	int arr[] = { 1, 1, 0, 1, 0, 1, -1, -1, -1, -1, -1, 1, -1, -1, -1 , 0, 1, 1 };
 	modifyString(str, arr);
 	std::cout << str;
 	/*char str[] = "\"Hey buddy\", what\'s up \"buddy\". \"Hello?";
